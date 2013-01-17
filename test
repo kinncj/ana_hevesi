@@ -3,7 +3,7 @@
 assert_options(ASSERT_ACTIVE, 1);
 assert_options(ASSERT_WARNING, 0);
 
-$file = file('a.md');
+$file = file('README.md');
 $assertions = array();
 $assertions[] = assert("'{$file[0]}' == 'Ana Hevesi\n'");
 $assertions[] = assert("'{$file[1]}' == '==========\n'");
